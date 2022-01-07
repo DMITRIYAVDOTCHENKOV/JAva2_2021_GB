@@ -61,7 +61,9 @@ public class Multithreading {
             };
 
             Thread thread1 = new Thread(stream1);
+            thread1.start();
             Thread thread2 = new Thread(stream2);
+            thread2.start();
 
 
             try {
