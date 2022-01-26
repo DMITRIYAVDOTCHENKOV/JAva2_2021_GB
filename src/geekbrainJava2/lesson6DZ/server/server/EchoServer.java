@@ -1,4 +1,4 @@
-package geekbrainJava2.lesson6DZ.server.server;
+package geekbrainJava2.Lesson6DZ.Server.server;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

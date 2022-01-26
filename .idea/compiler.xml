@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="NetworkChatClientServer" />
+        <module name="NetrorkChatClient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JavaFXChat" target="16" />
+      <module name="NetrorkChatClient" target="11" />
+      <module name="NetworkChatClientServer" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
