@@ -46,11 +46,11 @@ public class Network {
 
     public boolean connect() {
         try {
-            socket = new Socket(host, port);
-            socketOutput = new ObjectOutputStream(socket.getOutputStream());
-            socketInput = new ObjectInputStream(socket.getInputStream());
-            readMessageProcess = startReadMessageProcess();
-            connected = true;
+            this.socket = new Socket(host, port);
+            this.socketOutput = new ObjectOutputStream(socket.getOutputStream());
+            this.socketInput = new ObjectInputStream(socket.getInputStream());
+            this.readMessageProcess = startReadMessageProcess();
+            this.connected = true;
             return true;
         } catch (IOException e) {
             e.printStackTrace();
