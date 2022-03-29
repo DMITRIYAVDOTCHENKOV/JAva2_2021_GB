@@ -1,4 +1,4 @@
-package geekbrainJava2.lesson6DZ.server.client;
+package NerworkChatClient;
 
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -8,12 +8,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
+import ru.avdotchenkov.client.model.Network;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.IOException;
-import java.net.Socket;
-import java.net.UnknownHostException;
 
 public class ClientChat extends Application {
 
@@ -74,6 +71,6 @@ public class ClientChat extends Application {
     }
 
     public static void main(String[] args) {
-        Application.launch();
+        launch();
     }
 }

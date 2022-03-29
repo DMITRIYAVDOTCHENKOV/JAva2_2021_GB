@@ -1,4 +1,4 @@
-package geekbrainJava2.lesson6DZ.server.client;
+package NerworkChatClient;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -8,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import ru.avdotchenkov.client.model.Network;
 
 import java.io.IOException;
 import java.util.function.Consumer;

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java2_2021_GB.iml" filepath="$PROJECT_DIR$/Java2_2021_GB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java2_2021_12.iml" filepath="$PROJECT_DIR$/.idea/Java2_2021_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkChatClient/NetrorkChatClient.iml" filepath="$PROJECT_DIR$/NetworkChatClient/NetrorkChatClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkChatClientServer/NetworkChatClientServer.iml" filepath="$PROJECT_DIR$/NetworkChatClientServer/NetworkChatClientServer.iml" />
     </modules>
   </component>
 </project>
